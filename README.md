@@ -1,6 +1,5 @@
 ### Word Count Problem
-The solution takes the text files in the directory wc_input and sorts them
-
+The solution takes the text files in the directory wc_input and sorts them\\n
 alphabetically by their names into a list called FILES. Furthermore it iterates over lines of all the text files and counts the frequency of each word. In order to find the words, first I remove characters such as 
 `'-_.` 
 from each line
