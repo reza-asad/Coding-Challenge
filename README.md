@@ -3,6 +3,10 @@ The text files in **wc_input** directory are opened and read by **word_count.py*
 and **running_median.py** in alphabetical order. The shell script run.sh
 sets up permissions to run the python scrips and redirects the outputs
 to the **wc_output** directory.
+
+Note that I have used Python 3.5 to write the scripts. Therefore,
+some of the built-in functions will not run on Python 2.
+
 ### Word Count Problem
 The solution iterates over lines of all the text
 files and counts the frequency of each word. In order to find the
