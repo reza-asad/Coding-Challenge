@@ -9,14 +9,14 @@ some of the built-in functions will not run on Python 2.
 
 ### Word Count Problem
 To solve the porblem, I iterate over lines of all the text
-files and counts the frequency of each word. In order to find the
-words, first I remove characters such as `'-_.` from each line.
-Then I split over the non-alphanumeric characters. The words are
-then kept in a dictionary called *word_count* and I update their counts
-as new words arrive. After all the files have been processed, the words
-are sorted alphabetically and printed along with their counts separated
-by a tab. The results are outputted into a text file called **wc_result**. 
-This is in **wc_output** directory.
+files and count the frequency of each word. 
+I first remove characters such as `'-_.` from each line.
+Then I split over all the non-alphanumeric characters to produce a list
+of words. The words are then kept in a dictionary called *word_count* 
+and I update their counts as new words arrive. After all the files have
+been processed, the words are sorted alphabetically and printed along with
+their counts separated by a tab. The results are outputted into a text
+file called **wc_result** in the **wc_output** directory.
 
 ### Running Median
 In my solution, I count the number of words in each line of all the
