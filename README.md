@@ -1,12 +1,10 @@
 ### Input\output
-The text files in **wc_input** are opened and read by **word_count.py**
+The text files in **wc_input** directory are opened and read by **word_count.py**
 and **running_median.py** in alphabetical order. The shell script run.sh
 sets up permissions to run the python scrips and redirects the outputs
-to the **wc_output**
+to the **wc_output** directory.
 ### Word Count Problem
-The solution takes the text files in the directory **wc_input** and
-sorts them alphabetically by their names into a list
-called *FILES*. Furthermore, it iterates over lines of all the text
+The solution iterates over lines of all the text
 files and counts the frequency of each word. In order to find the
 words, first I remove characters such as `'-_.` from each line.
 Then I split over the non-alphanumeric characters. The words are
