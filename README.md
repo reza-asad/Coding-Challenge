@@ -8,7 +8,7 @@ Note that I have used Python 3.5 to write the scripts. Therefore,
 some of the built-in functions will not run on Python 2.
 
 ### Word Count Problem
-To solve the porblem I iterate over lines of all the text
+To solve the porblem, I iterate over lines of all the text
 files and counts the frequency of each word. In order to find the
 words, first I remove characters such as `'-_.` from each line.
 Then I split over the non-alphanumeric characters. The words are
