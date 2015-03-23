@@ -31,10 +31,10 @@ and assign the smaller value to be the root of the max heap and the
 larger value to be the root of the min heap. Then the median is the average
 of the root values. The isertion process continues with the following two 
 constraints: 
-* The new *counter* value is inserted to the max heap if it is smaller
- than the current median. Otherwise, it is inserted to the min heap.
+
+* The new *counter* value is inserted to the max heap if it is less than
+ or equal to the current median. Otherwise, it is inserted to the min heap.
 * The size of the heaps should not differ by more than one. 
-each insertion the 
-Computes the running median by balancing a min and max heap. 
-Prints the medians into a text file called wc_result.
-The result is in wc_output directory.
+
+If the size of the heaps differs by more than one the root of the larger 
+heap is removed and inserted into the smaller heap. 
