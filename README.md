@@ -15,8 +15,7 @@ Then I split over all the non-alphanumeric characters to produce a list
 of words. The words are then kept in a dictionary called *word_count* 
 and I update their counts as new words arrive. After all the files have
 been processed, the words are sorted alphabetically and printed along with
-their counts separated by a tab. The results are outputted into a text
-file called **wc_result** in the **wc_output** directory.
+their counts separated by a tab. 
 
 ### Running Median
 In my solution, I count the number of words in each line of all the
