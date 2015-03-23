@@ -1,3 +1,5 @@
+### Input\Output
+The 
 ### Word Count Problem
 The solution takes the text files in the directory **wc_input** and
 sorts them alphabetically by their names into a list
@@ -12,3 +14,10 @@ by a tab. The results are outputted into a text file called **wc_result**.
 This is in **wc_output** directory.
 
 ### Running Median
+Takes the text files in the directory wc_input and sorts
+#		  them alphabetically by their names into a list called FILES.
+#		- Counts the number of words in each line of all the text files
+#		  and stores that into a list called counter.
+#		- Computes the running median by balancing a min and max heap. 
+#		- Prints the medians into a text file called wc_result.
+#		  The result is in wc_output directory.
