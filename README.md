@@ -36,4 +36,7 @@ constraints:
  or equal to the current median. Otherwise, it is inserted to the min heap.
 * The size of the heaps should not differ by more than one.
  * If the size of the heaps differs by more than one the root of the larger 
-  heap is removed and inserted into the smaller heap. 
+  heap is removed and inserted into the smaller heap.
+
+In this setting, if the size of the heaps are equal the median is the average
+of their roots. Otherwise, the median is the root of the larger heap. 
