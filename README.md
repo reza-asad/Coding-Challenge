@@ -1,6 +1,6 @@
 ### Input\output
-The text files in **wc_input** are opened and read by**word_count.py**
-and **running_median.py**. The shell script run.sh sets up permission
+The text files in **wc_input** are opened and read by **word_count.py**
+and **running_median.py**. The shell script run.sh sets up permissions
 to run the python scrips and redirects the outputs to the **wc_output**
 ### Word Count Problem
 The solution takes the text files in the directory **wc_input** and
