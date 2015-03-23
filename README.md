@@ -35,5 +35,5 @@ constraints:
 * The new *counter* value is inserted to the max heap if it is less than
  or equal to the current median. Otherwise, it is inserted to the min heap.
 * The size of the heaps should not differ by more than one.
- *If the size of the heaps differs by more than one the root of the larger 
+ * If the size of the heaps differs by more than one the root of the larger 
   heap is removed and inserted into the smaller heap. 
