@@ -1,6 +1,6 @@
 ### Input\output
 The text files in the **wc_input** directory are opened and read by **word_count.py**
-and **running_median.py** in alphabetical order. The shell script run.sh
+and **running_median.py** in alphabetical order. The shell script **run.sh**
 sets up permissions to run the python scrips and redirects the outputs
 to the **wc_output** directory.
 
